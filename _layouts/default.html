@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include html-head.html %}
+    <body>
+        <div class="wrapper">
+          {% include page-header.html %}
+
+          {{ content }}
+
+        </div>
+        
+        {% include page-footer.html %}
+        
+        {% include page-ga.html %}
+
+    </body>
+</html>

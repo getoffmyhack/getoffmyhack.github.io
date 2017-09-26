@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  width:800px;
+}
+
+
+header h1 {
+    font-size: 32px;
+}
+
+header ul {
+    height: 25px;
+}
+
+header ul li {
+    height: 25px;
+}
+
+header p {
+    width: auto;
+    font-size: 16px;
+}
+
+ul.post-list { width: 600px; }
+ul.post-list li { list-style: none; }
+ul.post-list li span {
+    float:right;
+}
+
+.publish_date {
+    text-align: left;
+    font-size: 0.8em;
+    width: 580px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}

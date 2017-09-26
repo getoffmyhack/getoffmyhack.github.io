@@ -1,0 +1,8 @@
+<ul>
+{% assign sitepages = site.pages | sort: 'order' %}
+{% for page in sitepages %}
+    {% if page.type == 'page' %}
+    <li><a href="{{ page.url }}"><strong>{{ page.title }}</strong></a></li>
+    {% endif %}
+{% endfor %}
+</ul>
