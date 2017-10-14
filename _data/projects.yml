@@ -1,5 +1,5 @@
 - name: waveSDR
-  link: "https://www.github.com/getoffmyhack/waveSDR"
+  link: "http://www.getoffmyhack.com/waveSDR"
   description: "A macOS native RTLSDR software defined radio (SDR) desktop application."
 
 
